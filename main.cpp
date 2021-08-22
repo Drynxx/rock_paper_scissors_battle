@@ -156,7 +156,7 @@ int main()
     std::cout<<" You: "<<user_s<<"  "<<" Computer: "<<computer_s<<"\n";
 
     if(user_s> computer_s )
-        std::cout<<" You just won the biggest Rock Paper Scissors Game! Congrats !\n";
+        std::cout<<" You just won the biggest Rock Paper Scissors Game! Congrats !\n\n";
     else
         std::cout<<" The Computer just beated you! \n\n";
     std::cout << "====================\n\n";
