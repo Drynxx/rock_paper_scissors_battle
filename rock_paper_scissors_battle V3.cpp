@@ -4,7 +4,7 @@
 
 #include<iostream>
 #include<stdlib.h>
-#include <time.h>
+#include<time.h>
 #include<conio.h>
 #include<string>
 
@@ -14,7 +14,6 @@ int main()
 
     srand(time(NULL));
 
-    int computer = std::rand() % 3 + 1;
     int user=0;
 
     std::cout << "======================================================================\n\n";
@@ -61,6 +60,7 @@ int main()
 
     while(play_again==0)
     {
+        int computer = std::rand() % 3 + 1;
         std::cout << "====================\n\n";
         std::cout << "Choose how many rounds do you want!\n";
         std::cout << " 1) 1 round\n";
@@ -241,7 +241,4 @@ int main()
         std::cout << "====================\n\n";
 
     }
-
-
-
 }
