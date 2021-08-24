@@ -224,7 +224,7 @@ int main()
         }
     }
 
-    if(play_again=1)
+    if(play_again == 1)
     {
         system("cls");
         std::cout << "====================\n\n";
